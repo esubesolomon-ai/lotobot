@@ -11,8 +11,4 @@ services:
       - key: ADMIN_IDS
         sync: false
       - key: DB_PATH
-        value: /var/data/lottery.db
-    disk:
-      name: lottery-data
-      mountPath: /var/data
-      sizeGB: 1
+        value: lottery.db
